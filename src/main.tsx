@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
-import {FocusScreen} from "./04-useRef/FocusScreen.tsx";
+import {ScrambleWords} from "@/05-userReducer/ScrambleWords.tsx";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <FocusScreen />
+    <ScrambleWords />
   </StrictMode>,
 )
